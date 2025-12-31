@@ -40,10 +40,10 @@ body {
   margin-top: 80px;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(1, auto);
-  border: 2px solid white;
+  border: 0px solid white;
 }
 .maindiv > div{
-  border: 2px solid black;
+  border: 0px solid black;
 }
 .child1{
   gap: 10px;
@@ -55,21 +55,21 @@ body {
 .child1 > .add{
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid yellow;
+  border: 0px solid yellow;
 }
 .os{
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 20%;
-  border: 2px solid gold;
+  border: 0px solid gold;
 }
 .ic,.ad{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid green;
+  border: 0px solid green;
 }
 .ad{
   text-align: center;
@@ -299,3 +299,4 @@ body {
     margin-left: 2%;
     }
 }
+
